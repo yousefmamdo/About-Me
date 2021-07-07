@@ -3,13 +3,15 @@ let username = prompt('What is your name?');
 alert('Hello ' + username);
 let score = 0;
 
-let a = prompt('Is bmw my favorite car?');
+function question1(){
+    let a = prompt('Is bmw my favorite car?');
 a.toLowerCase();
 if (a == 'y' || a == 'yes') {
     alert('Yes it is bmw' + username);
     score++;
 } else {
     alert('Sorry, I guessed wrong ' + username);
+}
 }
 
 let b = prompt('Is red my favorite color?');
