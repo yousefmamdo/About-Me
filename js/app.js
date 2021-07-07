@@ -40,7 +40,8 @@ if (c == 'y' || c == 'yes') {
 
 }
 
-let d = prompt('Do I like coffee?');
+function question4(){
+    let d = prompt('Do I like coffee?');
 d.toLowerCase();
 if (d == 'y' || d == 'yes') {
     alert('correct guess ' + username);
@@ -48,6 +49,9 @@ if (d == 'y' || d == 'yes') {
 } else {
     alert('Sorry, I guessed wrong ' + username);
 }
+
+}
+
 let f = prompt('Do I want to fly?');
 f.toLowerCase()
 if (f == 'y' || f == 'yes') {
