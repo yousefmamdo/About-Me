@@ -14,6 +14,9 @@ if (a == 'y' || a == 'yes') {
 }
 }
 
+
+function question2(){
+    
 let b = prompt('Is red my favorite color?');
 b.toLowerCase();
 if (b == 'y' || b == 'yes') {
@@ -22,7 +25,11 @@ if (b == 'y' || b == 'yes') {
 } else {
     alert('Sorry, I guessed wrong' + username);
 }
-let c = prompt('Do you have to get up in the morning?');
+
+}
+
+function question3(){
+    let c = prompt('Do you have to get up in the morning?');
 c.toLowerCase();
 if (c == 'y' || c == 'yes') {
     alert('Nobody likes to get up in the morning, and I think you do ' + username);
@@ -30,6 +37,9 @@ if (c == 'y' || c == 'yes') {
     alert('correct guess' + username);
     score++;
 }
+
+}
+
 let d = prompt('Do I like coffee?');
 d.toLowerCase();
 if (d == 'y' || d == 'yes') {
