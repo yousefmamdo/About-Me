@@ -52,7 +52,8 @@ if (d == 'y' || d == 'yes') {
 
 }
 
-let f = prompt('Do I want to fly?');
+function question5(){
+    let f = prompt('Do I want to fly?');
 f.toLowerCase()
 if (f == 'y' || f == 'yes') {
     alert('Sorry, I guessed wrong ' + username);
@@ -61,6 +62,7 @@ if (f == 'y' || f == 'yes') {
     score++;
 }
 
+}
 for (let i = 0; i < 4; i++) {
     let g = prompt('Guess the number between 1 and 10?');
     parseInt(g);
