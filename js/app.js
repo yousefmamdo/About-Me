@@ -18,7 +18,7 @@ question1();
 function question2() {
 
     let b = prompt('Is red my favorite color?');
-    b.toLowerCase();
+    b.toLowerCase() ;
     if (b == 'y' || b == 'yes') {
         alert('Yes it is red ' + username);
         score++;
