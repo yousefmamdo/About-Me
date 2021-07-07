@@ -63,23 +63,29 @@ if (f == 'y' || f == 'yes') {
 }
 
 }
-for (let i = 0; i < 4; i++) {
-    let g = prompt('Guess the number between 1 and 10?');
-    parseInt(g);
-    if (g == 5) {
-        alert('is Yes, your guess is correct');
-        score++;
-        break;
-    } else if (g > 5) {
-        alert('too high');
-    } else {
-        alert('too low');
-    }
-    if (i == 3) {
-        alert('the correct anser is 5');
-    }
 
+function question6(){
+    for (let i = 0; i < 4; i++) {
+        let g = prompt('Guess the number between 1 and 10?');
+        parseInt(g);
+        if (g == 5) {
+            alert('is Yes, your guess is correct');
+            score++;
+            break;
+        } else if (g > 5) {
+            alert('too high');
+        } else {
+            alert('too low');
+        }
+        if (i == 3) {
+            alert('the correct anser is 5');
+        }
+    
+    }
+    
 }
+
+
 let food = ['burger', 'steak', 'pizza', 'mansaf'];
 for (let i = 0; i < 6; i++) {
     let c = 0;
