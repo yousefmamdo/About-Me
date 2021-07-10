@@ -5,6 +5,7 @@ body {
     color: blue;
   }
   p {
+    font-family: 'Uchen', serif;
     color: red;
   }
   ol {
